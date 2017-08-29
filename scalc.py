@@ -1,3 +1,4 @@
+from __future__ import division
 #Simple calculator script
 #Get problem from user
 math=raw_input(": ")
