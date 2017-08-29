@@ -8,7 +8,7 @@ math=raw_input(": ")
 #math=math.split()
 def solve(problem):
   #Check for letters and prevent errors
-  if re.search("[a-zA-Z+", problem):
+  if re.search("[a-zA-Z]+", problem):
     print("Sorry, letters aren't allowed.")
     sys.exit()
   #Replace '^' with '**'
