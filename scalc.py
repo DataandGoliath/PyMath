@@ -4,7 +4,8 @@ math=raw_input(": ")
 #Split up user input
 #math=math.split()
 def solve(problem):
-  solved=exec("print(%s)"%(problem))
+  #Replace '^' with '**'
+  problem=problem.replace("^","**")
+  solved=eval("%s"%(problem))
   return solved
-  
 print(solve(math))
